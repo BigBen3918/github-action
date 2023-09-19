@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    open-pull-requests-limit: 5
+    reviewers:
+      - 'DeamDao/Frontend'
+    schedule:
+      interval: 'daily'
+      time: '07:00'
+    target-branch: 'develop'
